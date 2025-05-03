@@ -10,6 +10,16 @@ This project implements a sophisticated diabetes prediction system using machine
 
 ![Model Performance](Visualizations/model_performance.png)
 
+## Documentation
+
+For comprehensive technical details, see [TECHNICAL_DOCUMENTATION.md](TECHNICAL_DOCUMENTATION.md), which covers:
+- Problem statement and clinical context
+- Detailed dataset analysis
+- Data preprocessing and feature engineering
+- Mathematical approaches and model architecture
+- Model validation and performance metrics
+- Limitations and future work
+
 ## Dataset Analysis
 
 The model uses a comprehensive dataset with features across multiple categories:
@@ -68,4 +78,4 @@ This diabetes prediction model represents a significant advancement in medical m
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
