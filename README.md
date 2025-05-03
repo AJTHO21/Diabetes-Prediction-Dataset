@@ -38,7 +38,8 @@ The model uses a comprehensive dataset with features across multiple categories:
 
 ## Methodology
 
-### Model Evolution
+### Model Evolution and Performance Progression
+The model underwent 8 iterations of refinement, each bringing significant improvements:
 ![Model Evolution](Visualizations/model_evolution.png)
 
 The project follows a systematic approach:
