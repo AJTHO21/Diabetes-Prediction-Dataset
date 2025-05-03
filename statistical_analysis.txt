@@ -1,0 +1,53 @@
+Statistical Analysis Results
+==========================
+
+Basic Statistics:
+        Unnamed: 0          Age  ...  Family_History_of_Diabetes  Previous_Gestational_Diabetes
+count  6680.000000  6680.000000  ...                 6680.000000                    6680.000000
+mean   4993.754940    44.625749  ...                    0.511228                       0.515269
+std    2889.502922    14.325345  ...                    0.499911                       0.499804
+min       0.000000    20.000000  ...                    0.000000                       0.000000
+25%    2502.750000    32.000000  ...                    0.000000                       0.000000
+50%    4982.000000    45.000000  ...                    1.000000                       1.000000
+75%    7499.250000    57.000000  ...                    1.000000                       1.000000
+max    9999.000000    69.000000  ...                    1.000000                       1.000000
+
+[8 rows x 16 columns]
+
+Fasting Blood Glucose Correlations:
+Fasting_Blood_Glucose            1.000000
+Cholesterol_LDL                  0.017657
+Age                              0.012928
+Waist_Circumference              0.005962
+Blood_Pressure_Diastolic         0.005225
+Serum_Urate                      0.003781
+Unnamed: 0                       0.003152
+GGT                             -0.001559
+Blood_Pressure_Systolic         -0.001653
+Family_History_of_Diabetes      -0.002788
+Cholesterol_HDL                 -0.003222
+Cholesterol_Total               -0.008424
+HbA1c                           -0.020437
+BMI                             -0.020469
+Dietary_Intake_Calories         -0.021234
+Previous_Gestational_Diabetes   -0.025710
+Name: Fasting_Blood_Glucose, dtype: float64
+
+HbA1c Correlations:
+HbA1c                            1.000000
+Dietary_Intake_Calories          0.011955
+Unnamed: 0                       0.011632
+Cholesterol_LDL                  0.006570
+Blood_Pressure_Diastolic         0.001434
+Age                             -0.001814
+BMI                             -0.002007
+Family_History_of_Diabetes      -0.002822
+Cholesterol_Total               -0.002954
+Previous_Gestational_Diabetes   -0.003041
+Cholesterol_HDL                 -0.003364
+GGT                             -0.005534
+Serum_Urate                     -0.005786
+Waist_Circumference             -0.006990
+Blood_Pressure_Systolic         -0.008263
+Fasting_Blood_Glucose           -0.020437
+Name: HbA1c, dtype: float64
