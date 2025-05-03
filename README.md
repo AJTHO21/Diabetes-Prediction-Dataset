@@ -44,7 +44,6 @@ This pie chart summarizes the average importance of features grouped by category
 Interpretation:
 The size of each slice shows the proportion of total model importance attributed to each category.
 For example, a large “Blood Tests” slice indicates that blood biomarkers are highly predictive in this model.
-This helps stakeholders understand which types of data are most valuable for diabetes prediction.
 
 ### Class Distribution
 ![Class Distribution](Visualizations/class_distribution.png)
